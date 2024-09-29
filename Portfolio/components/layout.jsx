@@ -10,7 +10,7 @@ export default function Layout() {
     return (
         <>
             <h1>My Portfolio</h1>
-            <img src={"./public/logo.webp"} alt="logo" style={{ width: "65px" }} />
+            <img src={"./logo.webp"} alt="logo" style={{ width: "65px" }} />
             <nav>
                 <Link to="/">Home</Link> | <Link to="/about">About</Link> | <Link to="/services">Services</Link>| <Link
                 to="/project">Project</Link>| <Link to="/contact">Contact</Link>
